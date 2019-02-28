@@ -1,5 +1,7 @@
 # palette
-Colour palette web application. 
+
+Colour palette web application.
+
 # TODO
 
 - [ ] hsl string palette viewer with saturation and lighting sliders
