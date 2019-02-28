@@ -1,0 +1,26 @@
+{
+  "name": "palette",
+  "version": "1.0.0",
+  "description": "Colour palette web application.  # TODO",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanguslee/palette.git"
+  },
+  "author": "khanguslee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khanguslee/palette/issues"
+  },
+  "homepage": "https://github.com/khanguslee/palette#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
