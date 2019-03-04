@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>palette</title>
@@ -10,7 +10,27 @@
     <body>
         <div class="container-fluid">
             <h1>palette</h1>
-            <div id="svg-palette"></div>
+
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div class="form-group">
+                            <label for="saturationRange">Saturation: </label>
+                            <span id="saturationText">0.5</span>
+                            <input type="range" min="0" max="1" step="0.05" class="custom-range" id="saturationRange" oninput="sliderChange()">
+
+                            <label for="lightnessRange">Lightness</label>
+                            <span id="lightnessText">0.5</span>
+                            <input type="range" min="0" max="1" step="0.05" class="custom-range" id="lightnessRange" oninput="sliderChange()">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="svg-palette"></div>
+                </div>
+            </div>
         </div>
         
         <script src="/index.js"></script>

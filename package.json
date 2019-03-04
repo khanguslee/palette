@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/khanguslee/palette#readme",
   "devDependencies": {
-    "eslint": "^5.14.1"
+    "eslint": "^5.15.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
   },
   "dependencies": {
     "express": "^4.16.4"
