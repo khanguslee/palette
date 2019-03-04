@@ -6,6 +6,14 @@ const svg = d3.select('#svg-palette')
   .attr('height', svgHeight);
 
 function renderColours(saturation, lightness) {
+  // Validate input values
+  if (saturation > 1 || saturation < 0) {
+    throw (new Error('Saturation value needs to be between 0 and 1'));
+  }
+  if (lightness > 1 || lightness < 0) {
+    throw (new Error('Lightness value needs to be between 0 and 1'));
+  }
+
   const numberOfColours = 36;
   const svgRectHeight = svgHeight / numberOfColours;
 
